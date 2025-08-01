@@ -3,6 +3,7 @@ var a = 3;
 var b = 5;
 var add = a+b;
 document.write( "Sum of " + a +" and " + b +" is " + add + "<br>") 
+
 /*2. Repeat task1 for subtraction, multiplication, division & 
 modulus.*/ 
 // subtraction
@@ -17,13 +18,14 @@ document.write( "Division of " + a +" and " + b +" is " + div + "<br>")
 // Modulus
 var mod = a%b;
 document.write( "Modulus of " + a +" and " + b +" is " + mod + "<br> <br>") 
+
 /*3. Do the following using JS Mathematic Expressions */
 // a. Declare a variable.
 var math 
 // b. Show the value of variable in your browser like “Value after variable declaration is: ??”.
 document.write("Value after variable declaration is: " + math + "<br>") 
 // c. Initialize the variable with some number. 
-math = 4;
+math = 5;
 // d. Show the value of variable in your browser like “Initial value: 5”.
 document.write("Initial value is: "+ math + "<br>")
 // e. Increment the variable. 
@@ -41,6 +43,9 @@ document.write("Value after decreament is: " + math +"<br>")
 // k. Show the remainder after dividing the variable’s value by 3. 
 var math = math % 3
 document.write("Remainder after diving by 3 is: " + math + "<br><br>")
+// l .
+var output = math
+document.write ("The reamainder is:" + output +"<br>")
 
 // Question 4 
 /* 4. Cost of one movie ticket is 600 PKR. Write a script to 
@@ -50,9 +55,11 @@ tickets
 to a movie.*/
 var ticketPrice = 600
 document.write("The total cost to buy 5 tickets is: " + ticketPrice*5 +"<br>")
+
 // 5. Write a script to display multiplication table of any number in your browser.
 document.write("<h1> TABLE OF 5</h1> ")
 document.write("5 * 1 = 5 <br> 5 * 2 = 10 <br> 5 * 3 = 15 <br> 5 * 4 = 20 <br>  5 * 5 = 25 <br>  5 * 6 = 30 <br> 5 * 7 = 35 <br>  5 * 8 = 40 <br>  5 * 9 = 45 <br>  5 * 10 = 50 <br>   ")
+
 // 6. The Temperature Converter
 document.write("<h1>The Temperature Converter</h1>")
 var celsius= 23 ;
@@ -60,6 +67,7 @@ var fahrenheit = (celsius * 9/5) + 32;
 document.write(celsius +" degree celsius" + " is equal to" + fahrenheit +" degree fahrenheit + <br>");
 var celsius = (fahrenheit - 32) * 5/9;
 document.write(fahrenheit +" degree fahrenheit" + " is equal to " + celsius +" degree celsius + <br>" );
+
 // 7.  Write a program to implement checkout process of a shopping cart system for an e-commerce website. 
 var priceOfItem1 = 500
 var priceOfItem2 = 600
